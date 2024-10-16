@@ -14,7 +14,7 @@
     <input type="number" id="altura" name="altura" required>
 
     <button type="submit">Calcular</button>
-     
+
 </form>
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
