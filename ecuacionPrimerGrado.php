@@ -15,7 +15,6 @@
 
     <button type="submit">Calcular</button>
 
-
 </form>
 <?php
  if($_SERVER["REQUEST_METHOD"] == "POST"){ //
@@ -33,7 +32,6 @@
          $result = -$num2 / $num1;
          echo "El resultado de la ecuación es: x= ". $result;
      }
-
  }
 ?>
 </body>
