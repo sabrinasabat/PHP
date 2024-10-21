@@ -8,5 +8,4 @@
 
     echo '<br>'.$empleado2->getNombreCompleto() . ". Debe pagar impuestos? ". '<b>'. ($empleado2->debePagarImpuestos() ? 'Si' : 'No');
 
-
 ?>
