@@ -22,7 +22,7 @@
     agregarCategoriaAProducte($producto4, $categoria1);
 
     //Validación de errores:
-    //$producto5 = crearProducte('', 'amem', 74.80);
+    //$producto5 = crearProducte('', 'amem', 74.80); -- Sí, ha funcionado
 
 
     // Mostrar productes
@@ -35,6 +35,9 @@
     //$productesJaquetas = obtenirProductsPorCategoria($categoria3, $productos);
     //mostrarProductes($productesJaquetas);
 
+    /*Observaciones: Si quieres ver el resultado en texto php, quite el comentario de la línea 30 y ejecute el código.
+    Hay que cambiar la variable global del template.php para usar 'productes roba' o 'productes jaqueta'
+    */
     include "template.php";
 
 ?>

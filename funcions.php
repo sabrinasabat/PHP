@@ -109,7 +109,7 @@
     }
 
     //Enseña todos los productos que hacen parte del array productos, junto con su descripción, precio, categoría
-    //y su descripción.
+    //y la descripción de la categoria.
     function mostrarProductes(array $productos){
         foreach($productos as $producto){
             echo '<b>'. "Nombre: ".'</b>'. $producto->getNombreProducto() ."<br>";
