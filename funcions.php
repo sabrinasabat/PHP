@@ -87,7 +87,6 @@
             //Excepción en PHP que se utiliza para indicar que un argumento no es válido.
         }
         return new Categoria($nombre, $descripcion);
-
     }
 
     //Adiciona una categoría al array de categorías del producto especificado

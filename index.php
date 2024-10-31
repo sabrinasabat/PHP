@@ -24,7 +24,6 @@
     //Validación de errores:
     //$producto5 = crearProducte('', 'amem', 74.80); -- Sí, ha funcionado
 
-
     // Mostrar productes
     $productos = [$producto1, $producto2, $producto3, $producto4];
     //mostrarProductes($productos);
